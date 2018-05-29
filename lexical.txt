@@ -1,0 +1,9 @@
+#include<stdio.h>
+ 
+int main(void)
+{
+	int a,b,c;
+	c = a+b;
+      printf("Hello World %c\n",c);
+      return 0;
+}

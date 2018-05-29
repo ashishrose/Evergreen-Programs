@@ -1,0 +1,14 @@
+perfect no is +ve num which sum of all +ve divisors except the no is equal to the number
+eg
+6  = 1+2+3
+28 = 1+2+4+7+14
+496,8128
+
+code snippet
+
+while(i<n)// n is the number i iniitialized as 1 & sum=0
+{
+      if(n%i==0)
+           sum=sum+i;
+      i++;
+}

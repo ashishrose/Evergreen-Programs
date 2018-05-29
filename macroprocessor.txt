@@ -1,0 +1,7 @@
+#include<stdio.h> 
+#define x 5 
+#define y 3 
+void main () 
+{   
+ r = x + y ;
+} 

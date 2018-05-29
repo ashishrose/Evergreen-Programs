@@ -1,0 +1,12 @@
+THOSE NUMBERS WHICH SUM OF THE CUBE OF ITS DIGITS IS EQUAL TO THAT NUMBER ARE KNOWN AS ARMSTRONG NUMBERS. 
+FOR EXAMPLE 153 SINCE 1^3 + 5^3 + 3^3 = 1+ 125 + 9 =153
+
+OTHER ARMSTRONG NUMBERS: 370,371,407 ETC.
+
+
+code snippet
+temp=num;
+    while(num!=0){
+         r=num%10;
+         num=num/10;
+         sum=sum+(r*r*r);

@@ -1,0 +1,6 @@
+code snippet
+
+while(num){
+         r=num%10;
+         reverse=reverse*10+r;
+         num=num/10;

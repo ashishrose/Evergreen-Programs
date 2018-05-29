@@ -1,0 +1,7 @@
+code snippet
+
+for(k=2;k<r;k++){
+         f=i+j;
+         i=j;
+         j=f;
+         printf(" %ld",j);

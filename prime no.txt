@@ -1,0 +1,44 @@
+A natural number greater than one has not any other divisors except 1 and itself. In other word we can say which has only two divisors 1 and number itself. For example: 5
+
+Their divisors are 1 and 5.
+
+Note: 2 is only even prime number.
+
+We will take a loop and divide number from 2 to number/2. 
+If the number is not divisible by any of the numbers then we will print it as prime number.
+
+Example of prime numbers : 2, 3, 5, 7, 11, 13, 17, 19, 23, 
+29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 
+89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 
+151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 etc.
+
+
+code snippet
+for(i=2;i<=num/2;i++){
+             if(num%i==0){
+                 count++;
+                 break;
+
+if(count==0 && num!= 1)     //  it is a prime number
+             printf("%d ",num);
+
+
+
+
+while(num<=max){
+
+         count = 0;
+         i=2;
+
+         while(i<=num/2){
+             if(num%i==0){
+                 count++;
+                 break;
+             }
+             i++;
+        }
+        
+         if(count==0 && num!= 1)
+             printf("%d ",num);
+
+         num++;
